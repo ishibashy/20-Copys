@@ -1,0 +1,6 @@
+c:\users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\bin\Debug\Copy20.exe.config
+c:\users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\bin\Debug\Copy20.exe
+c:\users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\bin\Debug\Copy20.pdb
+c:\users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\obj\Debug\Copy20.csprojResolveAssemblyReference.cache
+c:\users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\obj\Debug\Copy20.exe
+c:\users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\obj\Debug\Copy20.pdb
