@@ -1,0 +1,5 @@
+C:\Users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\bin\Debug\Copy20.exe.config
+C:\Users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\obj\Debug\Copy20.exe
+C:\Users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\obj\Debug\Copy20.pdb
+C:\Users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\bin\Debug\Copy20.exe
+C:\Users\isikoro\documents\visual studio 2015\Projects\Copy20\Copy20\bin\Debug\Copy20.pdb
