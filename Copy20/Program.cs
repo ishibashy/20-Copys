@@ -12,7 +12,7 @@ public class copyNum
 
     static void DoIt(string dir)
     {
-
+        dir += "\\"; 
         files = Directory.GetFiles(dir, "*", SearchOption.AllDirectories);
         foreach (string s in files)
         {
@@ -37,7 +37,7 @@ public class copyNum
         for (int i = 0; i < rNum.Length; i++)
         {
             String st = beginNum.ToString();
-            String stFilePath = dir + st + ".png";
+            String stFilePath = dir + "\\" + st + ".png";
             System.IO.File.Copy(files[rNum[i]], stFilePath, true);
             Console.WriteLine(stFilePath);
             beginNum++;
