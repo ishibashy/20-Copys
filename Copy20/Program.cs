@@ -13,7 +13,7 @@ public class copyNum
     static void DoIt(string dir)
     {
         dir += "\\"; 
-        files = Directory.GetFiles(dir, "*", SearchOption.AllDirectories);
+        files = Directory.GetFiles(dir, "*", SearchOption.AllDirectories);//コピー元のファイルフルパスをすべて格納
         foreach (string s in files)
         {
             Console.WriteLine("files[{0}]:{1}", count, s);
@@ -37,8 +37,8 @@ public class copyNum
         for (int i = 0; i < rNum.Length; i++)
         {
             String st = beginNum.ToString();
-            String stFilePath = dir + "\\" + st + ".png";
-            System.IO.File.Copy(files[rNum[i]], stFilePath, true);
+            String stFilePath = dir + "\\" + st + Path.GetExtension(files[rNum[i]]);//コピー先フルパス生成
+            File.Copy(files[rNum[i]], stFilePath, true);//コピー元からコピー先へ
             Console.WriteLine(stFilePath);
             beginNum++;
         }
@@ -47,7 +47,7 @@ public class copyNum
     static void Main(string[] args)
     {
                                         //コマンドライン引数に
-        if (args.Length == 0) return;   //参照先があるか
+        if (args.Length == 0) return;   //コピー先があるか
         if (args.Length < 3)            //ファイル名の開始番号があるか
             beginNum = 0;
         else
